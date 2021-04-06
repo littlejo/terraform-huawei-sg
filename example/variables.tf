@@ -1,11 +1,11 @@
-variable project {
+variable "project" {
   default = "dev"
 }
 
-variable cidr {
+variable "cidr" {
   default = "10.0.0.0/16"
 }
 
-variable port {
+variable "port" {
   default = "5432"
 }
