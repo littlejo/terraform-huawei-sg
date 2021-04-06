@@ -1,7 +1,7 @@
-output name {
+output "name" {
   value = huaweicloud_networking_secgroup.this.name
 }
 
-output id {
+output "id" {
   value = huaweicloud_networking_secgroup.this.id
 }
